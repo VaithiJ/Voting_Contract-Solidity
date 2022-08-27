@@ -3,7 +3,7 @@ pragma solidity ^ 0.8.7;
 
 contract votingContract{
 
-    uint stopTime = 20 seconds;
+    //uint stopTime = 20 seconds;
     address payable owner;
     mapping(address=> uint) public voteCount;
     mapping(address => uint) public timePeriod;
